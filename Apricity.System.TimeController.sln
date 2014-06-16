@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apricity.System.TimeController", "Apricity.System.TimeController\Apricity.System.TimeController.csproj", "{67CCD4D6-057F-4B8C-9320-F0C36C44A092}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeControllerStandalone", "TimeControllerStandalone\TimeControllerStandalone.csproj", "{770921BE-D360-4417-8E46-676D655C1E5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apricity.System.TimeController.FunctionalTests", "Apricity.System.TimeController.FunctionalTests\Apricity.System.TimeController.FunctionalTests.csproj", "{FA6F798C-B79E-4D6D-846E-00064014FF43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{ABDDEAF2-ADFA-4FC9-ABF5-2A9854C36AAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67CCD4D6-057F-4B8C-9320-F0C36C44A092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67CCD4D6-057F-4B8C-9320-F0C36C44A092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67CCD4D6-057F-4B8C-9320-F0C36C44A092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67CCD4D6-057F-4B8C-9320-F0C36C44A092}.Release|Any CPU.Build.0 = Release|Any CPU
+		{770921BE-D360-4417-8E46-676D655C1E5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{770921BE-D360-4417-8E46-676D655C1E5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{770921BE-D360-4417-8E46-676D655C1E5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{770921BE-D360-4417-8E46-676D655C1E5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA6F798C-B79E-4D6D-846E-00064014FF43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA6F798C-B79E-4D6D-846E-00064014FF43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA6F798C-B79E-4D6D-846E-00064014FF43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA6F798C-B79E-4D6D-846E-00064014FF43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FA6F798C-B79E-4D6D-846E-00064014FF43} = {ABDDEAF2-ADFA-4FC9-ABF5-2A9854C36AAF}
+	EndGlobalSection
+EndGlobal
