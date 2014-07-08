@@ -8,15 +8,14 @@
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace Apricity.System
-{
-    using Apricity.System.Properties;
-    using DependencySharp;
+using DependencySharp;
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
 
-    using global::System;
-    using global::System.Collections.Generic;
-    using global::System.Diagnostics;
-    using global::System.IO;
+namespace Apricity.OS
+{
 
     /// <summary>
     /// Provides methods to set the system date and time.
@@ -123,12 +122,12 @@ namespace Apricity.System
                                      {
                                          new UnmanagedDependency(
                                              Path.Combine(expectedPath, "CommandLine.dll"),
-                                             Resources.CommandLine_dll),
+                                             Properties.Resources.CommandLine_dll),
                                          new UnmanagedDependency(
                                              Path.Combine(
                                                  expectedPath,
                                                  "TimeController.exe"),
-                                             Resources.TimeController_exe,
+                                             Properties.Resources.TimeController_exe,
                                              new Version(1, 0, 0, 0)),
                                      };
 

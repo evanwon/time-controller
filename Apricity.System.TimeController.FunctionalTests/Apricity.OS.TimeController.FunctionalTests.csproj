@@ -6,8 +6,8 @@
     <ProjectGuid>{FA6F798C-B79E-4D6D-846E-00064014FF43}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Apricity.System.FunctionalTests</RootNamespace>
-    <AssemblyName>Apricity.System.FunctionalTests</AssemblyName>
+    <RootNamespace>Apricity.OS.FunctionalTests</RootNamespace>
+    <AssemblyName>Apricity.OS.FunctionalTests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -54,9 +54,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Apricity.System.TimeController\Apricity.System.TimeController.csproj">
+    <ProjectReference Include="..\Apricity.System.TimeController\Apricity.OS.TimeController.csproj">
       <Project>{67ccd4d6-057f-4b8c-9320-f0c36c44a092}</Project>
-      <Name>Apricity.System.TimeController</Name>
+      <Name>Apricity.OS.TimeController</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

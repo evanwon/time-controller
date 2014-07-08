@@ -10,7 +10,7 @@
 
 using System;
 
-namespace Apricity.System
+namespace Apricity.OS
 {
     class TimeControllerException : Exception
     {

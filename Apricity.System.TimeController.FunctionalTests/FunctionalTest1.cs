@@ -1,11 +1,10 @@
-﻿namespace Apricity.System.FunctionalTests
+﻿using System;
+using System.Diagnostics;
+using System.Threading;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+namespace Apricity.OS.FunctionalTests
 {
-    using global::System;
-    using global::System.Diagnostics;
-    using global::System.Threading;
-
-    using Microsoft.VisualStudio.TestTools.UnitTesting;
-
     /// <summary>
     /// Used to perform functional testing on the library.
     /// NOTE! This will affect your system time settings if executed!

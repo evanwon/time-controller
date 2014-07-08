@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Apricity.System.TimeController")]
+[assembly: AssemblyTitle("Apricity.OS.TimeController")]
 [assembly: AssemblyDescription("Provides methods to set and get the operating system's date and time.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Apricity Software LLC")]
-[assembly: AssemblyProduct("Apricity.System.TimeController")]
+[assembly: AssemblyProduct("Apricity.OS.TimeController")]
 [assembly: AssemblyCopyright("Copyright © 2014 Apricity Software LLC")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
